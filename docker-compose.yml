@@ -1,0 +1,10 @@
+version: '2'
+services:
+    APP:
+        image: ubuntu16.04_parsec0:latest
+        container_name: ubuntu
+        stdin_open: true
+        tty: true
+        volumes:
+            - "/dev:/dev"
+
